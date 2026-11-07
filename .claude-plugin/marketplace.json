@@ -1,0 +1,13 @@
+{
+  "name": "personal-operator",
+  "owner": {
+    "name": "Personal Operator"
+  },
+  "plugins": [
+    {
+      "name": "personal-operator",
+      "source": "./",
+      "description": "Calls through Vapi, errands, inbox triage, briefs, and escalation rules."
+    }
+  ]
+}
