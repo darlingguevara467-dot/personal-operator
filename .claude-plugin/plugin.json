@@ -1,6 +1,6 @@
 {
   "name": "personal-operator",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A personal operator: places phone calls through Vapi, runs errands, triages your inbox, briefs you on what happened while you were away, and escalates anything risky to you instead of deciding alone.",
   "author": {
     "name": "Personal Operator"

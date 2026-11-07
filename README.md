@@ -31,7 +31,13 @@ export VAPI_API_KEY="your-key-here"
 ```
 Then open a new terminal. The plugin's `.mcp.json` reads `${VAPI_API_KEY}` from there, so the key never sits in the plugin folder.
 
-You'll also need Node.js installed (for `npx`).
+Windows (Command Prompt):
+```
+setx VAPI_API_KEY "your-key-here"
+```
+Then fully quit the Claude app (including from the system tray) and reopen it, so it sees the new key.
+
+The plugin connects to Vapi directly over HTTPS, so no Node.js is needed.
 
 ### 3. Install the plugin
 Unzip this folder somewhere permanent (e.g. `~/personal-operator`), then in Claude Code:
